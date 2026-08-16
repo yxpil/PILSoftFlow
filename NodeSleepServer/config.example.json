@@ -1,0 +1,9 @@
+{
+  "heavy": {
+    "watchPorts": [20726],
+    "idleMinutes": 5,
+    "checkIntervalSec": 30,
+    "shutdownCmd": "systemctl poweroff",
+    "statusPort": 19100
+  }
+}

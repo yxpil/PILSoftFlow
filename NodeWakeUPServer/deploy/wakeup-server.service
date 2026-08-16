@@ -1,0 +1,15 @@
+[Unit]
+Description=NodeWakeUPServer - WOL 唤醒代理(分代理服务器端)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/node /opt/wakeup-server/server.js start --config /etc/wakeup-server/config.json
+Restart=always
+RestartSec=3
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

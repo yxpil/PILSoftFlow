@@ -1,0 +1,24 @@
+{
+  "name": "node-wakeup-server",
+  "version": "1.0.0",
+  "description": "NodeWakeUPServer - 分代理服务器端:WOL 唤醒代理(探测后端、离线唤醒、正在唤醒页、透传),纯 Node.js 零依赖",
+  "private": true,
+  "main": "server.js",
+  "bin": {
+    "wakeup-server": "server.js"
+  },
+  "scripts": {
+    "start": "node server.js start --config config.json",
+    "test": "node test/e2e.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "wol",
+    "wake-on-lan",
+    "proxy",
+    "power-save"
+  ],
+  "license": "MIT"
+}

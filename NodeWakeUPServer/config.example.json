@@ -1,0 +1,24 @@
+{
+  "proxy": {
+    "host": "0.0.0.0",
+    "probeTimeoutMs": 800,
+    "wakeTimeoutSec": 180,
+    "wakeRetries": 5,
+    "wakeIntervalMs": 1500,
+    "statusPort": 9090,
+    "routes": [
+      {
+        "name": "重型服务器",
+        "listenPort": 20726,
+        "backendMac": "AA:BB:CC:DD:EE:FF",
+        "backendPort": 20726,
+        "heavyStatusUrl": "http://192.168.1.100:19100/",
+        "wol": {
+          "mac": "AA:BB:CC:DD:EE:FF",
+          "broadcast": "192.168.1.255",
+          "ports": [7, 9]
+        }
+      }
+    ]
+  }
+}

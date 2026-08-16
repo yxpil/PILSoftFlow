@@ -1,0 +1,24 @@
+{
+  "name": "node-sleep-server",
+  "version": "1.0.0",
+  "description": "NodeSleepServer - 重型服务器端:空闲自动关机守护(监视端口无连接 N 分钟自动关机,状态/控制 HTTP 端点),纯 Node.js 零依赖",
+  "private": true,
+  "main": "server.js",
+  "bin": {
+    "sleep-server": "server.js"
+  },
+  "scripts": {
+    "start": "node server.js start --config config.json",
+    "test": "node test/e2e.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "auto-shutdown",
+    "idle",
+    "power-save",
+    "linux"
+  ],
+  "license": "MIT"
+}
