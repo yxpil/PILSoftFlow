@@ -1,5 +1,13 @@
 # PILSoftFlow 测试说明
 
+- 测试完成：是（2026-10-04）
+- 测试日期：2026-10-04
+- 测试内容：单元：config 校验、/proc/net/tcp 扫描、WOL 魔法包、ARP 解析；集成：在线透传/未知路由 404
+- 运行命令：cd NodeSleepServer; npm test; cd ../NodeWakeUPServer; npm test
+- 测试框架：Node 内置 node:test
+- 模型：豆包（Doubao）生成
+
+
 本仓库包含两个独立的零依赖 Node.js 子项目，各自有独立的 `package.json` 与 `tests/`。测试基于 Node.js 内置运行器 `node --test`，无需安装任何依赖。
 
 ## 运行方式
