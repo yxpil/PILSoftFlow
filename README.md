@@ -39,3 +39,15 @@ npm start -- --dry-run   # 先试跑
 cd NodeWakeUPServer && npm test   # 33 项
 cd NodeSleepServer && npm test    # 14 项
 ```
+
+---
+
+<div align="center">
+
+<a href="https://github.com/yxpil/PILSoftFlow">
+  <img width="100%" src="https://alittlecatgirlpanel.yxp.hk/card?repo=yxpil/PILSoftFlow" alt="gh-card · yxpil/PILSoftFlow" />
+</a>
+
+<sub>Powered by <a href="https://alittlecatgirlpanel.yxp.hk"><b>gh-card</b></a> · 粉色手写体 README 仓库名片</sub>
+
+</div>
